@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JavaScript</title>
+    <link rel="stylesheet" href="stylo.css"/>
+</head>
+
+<body>
+
+    <h1>Varíaveis e Dados</h1>
+    </br>    
+
+    <script>
+        var nome = 'Ronaldo'; // String
+        var idade = 35;      // Inteiro
+        var peso = 110.00;   // Floater
+        var humano = true;   // Boolean
+
+        // Vetores ▼
+        var alunos = ['Ronaldo', 'Maria', 'Keu'];
+
+        // Objeto ▼
+        /* 
+        * Tambem posso atribuir o valor do vetor acima para uma propiedade do objeto aluno
+        * Ex: nome: alunos[1] 
+        * aluno.nome = Maria
+        */
+        var aluno = {
+            nome: alunos[1],
+            idade: 35,
+            peso: 110.00,
+            humano: true
+        };
+
+        console.log('***********************************************************');
+
+        /* ▼
+        * Para acessar uma posicao no Vetor ou Array um vetor sempre inicia na pocisão zero
+        * coloca o vetor ou array dentro de [] e a posicão desejada
+        *  Ex: vetor alunos[0] = Ronaldo ou alunos[2]   = Keu    
+        */
+        console.log('Vetor Alunos: ' + alunos[0]);
+        console.log('Vetor Alunos: ' + alunos[2]);
+
+        console.log('***********************************************************');
+        /* ▼
+        * Para acessar uma propiedade de um objeto
+        * voce deve colocar o nome do objeto segido de pont
+        * Ex: Objeto aluno.nome = Maria ou alonu.peso = 110.00 
+        */
+        console.log('Objeto aluno.nome: ' + aluno.nome)
+        console.log('Objeto aluno.peso: ' + aluno.peso)
+
+        console.log('***********************************************************');
+
+
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Curso JavaScript</title>
+    <link rel="stylesheet" href="stylo.css" />
+</head>
+
+<body>
+
+    <h1>Condicionais</h1>
+    </br>
+
+    <script>
+        function retornaSexo(sexo) {
+
+            // M, F
+            // Masculino, Feminino
+
+            /*if(sexo == 'M'){
+                return 'Masculino'
+            } else if (sexo == 'F') {
+                return 'Feminino'
+            } else {
+                return 'Sexo não informado!!!'
+            }*/
+
+            switch (sexo) {
+                case 'M':
+                    return 'Masculino'
+                    
+                case 'F':
+                    return 'Feminino'
+
+                default:
+                    return 'Sexo não informado!!!'
+                    
+            }
+
+        }
+
+        var resultado = retornaSexo('M')
+        console.log(resultado)
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JavaScript</title>
+    <link rel="stylesheet" href="stylo.css">
+</head>
+
+<body>
+    <h1>Eventros Inline</h1>
+    </br>
+
+    <div id="app">
+
+        <!-- (onclick) ao clicar no botão -->
+        <!-- <button onclick="mostraAlerta()">-- Me pressione --</button> -->
+
+        <!-- (onmouseover) ao passar o mouse no botão -->
+        <!-- <button onmouseover="mostraAlerta()">-- Me pressione --</button> -->
+
+        <label>Digite aqui : </label>
+        <input onkeypress="mostraAlerta()" />
+
+
+        </div>
+
+        <script>
+            function mostraAlerta() {
+                window.alert('Botão foi clicado!')
+            }
+
+        </script>
+
+</body>
+
+</html>

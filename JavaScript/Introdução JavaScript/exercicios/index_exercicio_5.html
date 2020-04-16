@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JavaScript Exercício 05</title>
+    <link rel="stylesheet" href="styloExercicios.css" />
+</head>
+
+<body>
+
+    <h1>Exercício 5</h1>
+    </br>
+    <script>
+        var usuarios = [
+            {
+                nome: 'Diego',
+                habilidades: ['Javascript', 'ReactJS', 'Redux']
+            },
+            {
+                nome: 'Gabriel',
+                habilidades: ['VueJS', 'Ruby on Rails', 'Elixir']
+            }
+        ]
+
+        for (let usuario of usuarios) {
+            console.log('O ' + usuario.nome + ' possui as habilidades: ' + usuario.habilidades.join(", "));
+        }
+
+    </script>
+
+</body>
+
+</html>

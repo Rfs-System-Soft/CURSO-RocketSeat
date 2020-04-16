@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JavaScript</title>
+    <link rel="stylesheet" href="stylo.css" />
+</head>
+
+<body>
+    <h1>Operadores Loícos</h1>
+    </br>
+    <script>
+        // AND, OR, NOT
+
+        var sexo = 'M', idade = 23
+
+        if (sexo === 'M' && idade >= 18) {
+            console.log('** Sexo: Masculino\n** Idade: Maior de 18 Anos')
+        } else {
+            console.log('** Sexo: Masculino\n** Idade: Menor de 18 Anos')
+        }
+        console.log('======================================================')
+        var sexo1 = 'F', idade1 = 10
+
+        if (sexo1 === 'M' || idade1 >= 18) {
+            console.log('## Sexo: Masculino\n## Idade: Maior de 18 Anos')
+        }
+
+        sexo1 = 'F'
+
+        var masculino = (sexo1 === 'M')
+
+        /*if (sexo1 === 'M') {
+            masculino = true
+        } else {
+            masculino = false
+        }*/
+
+        console.log(masculino)
+
+    </script>
+
+</body>
+
+</html>

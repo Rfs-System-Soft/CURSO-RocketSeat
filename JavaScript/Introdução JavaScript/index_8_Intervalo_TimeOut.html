@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JavaScript</title>
+    <link rel="stylesheet" href="stylo.css" />
+</head>
+
+<body>
+    <h1>Intervalo TimeOut</h1>
+    </br>
+    <script>
+
+        /*
+        * setInterval executa uma funtion acada tempo determinado po segundo
+        * EX: setInterval(exibeNome, 1000) o nome dentro da função sera exibido a cada 1 segundo
+        *
+        *
+        * setTemeout parecido com setInterval so que o setTimeout tem um delei
+        * antes de exibir o resutado que esta dentro de função
+        * Ex: setTimeout(exibeNome, 1000) depois de 1 segundo o nome sera mostrado
+        */
+
+        function exibeAlgo() {
+            console.log('Hello World!!!')
+        }
+
+        //setInterval(exibeAlgo, 1000)
+
+        setTimeout(exibeAlgo, 1000)
+
+
+    </script>
+
+</body>
+
+</html>
